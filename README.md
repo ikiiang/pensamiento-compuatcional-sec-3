@@ -17,4 +17,53 @@ Es una obra que explora la abstracción geométrica y el arte óptico. Mediante 
 La elegí porque en ella se observa una interacción de formas geométricas y colores llamativos sobre un fondo cuadrado. Me llamaron especialmente la atención los colores de la obra, ya que el único elemento que se repite con mayor frecuencia es el círculo negro. Aun así, los cuadrados de colores y el triángulo del mismo tono que el fondo rompen con la linealidad presente en la composición, Aunque es curioso que no tenga un nombre pero la obra se representa mejor con su geometría que con un título. 
 
 ## Proceso ##  
-Al princio hice un fondo de 400x400 pero empece a trabajar y hacer las elipses en una linea para comprobar cuantos circulos me cupirian pero me di cuenta que caian más  de los que necesitaba:  
+empecé haciendo mi imagen de 400x 400 y con circulos de medidas 60x 60 pero me di cuenta que no me funcionaba ya que los circulos que debia poner les sobraba espacio y si agrandaba la circunferencia no iban a caer los circulos de  5x5 que estan presentes en la ilustracion asi que tuve q achicar el cuadrado en 300x 300  
+
+me di cuenta que en el de 300x 300 si hacia cuadrados de 50 iban a quedar muy apretadoss asi haré de 45 por 45, después que hice la pueba y saliera bien me di cuenta de la diferencia de margen de arriba y abajo
+
+
+
+
+
+tambien me di cuenta q me equivoque en la figura (3, 4) ya que no le puse color pero le mande la imagen de referencia a una pagina llamada "image color picker" la cual me dio todos los colores presentes ahi, busque el del rosado y me dio el codigo #e35c7a y no sabia como ponerlo por lo cual busque y me di cuenta que solamente era poner el codigo 
+let c1= color ('#e35c7a');
+  fill(c1);
+  noStroke();
+que era muy parecido al codigo q puse para hacer los circulos negros'
+tuve q hacer el mismo procedimiento del circulo rosado con el cuadrado morado y lo comande como;
+ let c3= color ('#4f2b51');
+  fill (c3)
+square (195, 50, 50)
+ me di cuenta que la diferencia espacio de ancho eran mas grandes q la imagen original asi q los achique ej, el comado inicial era asi 
+ellipse (145, 100, 45, 45) 
+ellipse (141, 100, 45, 45)
+ lo malo de esto es q se descuadro y tuve que poner el fondo gris para poder identificar en q me equivoque
+
+
+
+
+
+
+para hacer los cuadrados fue sencillo dsp de haber sacado el primero ya que a las medidas del primero (no la ultima para q no afectara el tamaño del cuadrado) les iba agregando 50 q como se menciono anteriormente era el tamaño del cuadrado ej: 
+primer cuadrado let c4= color ('#306062')
+  fill(c4);
+square (52,100, 50)
+segundo cuadrado:
+let c5= color ('#cc5a36')
+ fill (c5);
+square(102, 150, 50)
+tercer cuadrado  
+let c6= color ('#ecd45a')
+  fill (c6);
+square( 152, 200, 50)
+
+
+
+
+
+Deje lo que para mi es más complicado que fue el triangulo teniendo en cuenta q es un dibujo en el plano cartesiano y no es como el cuadrado q para mi es más fácil poner x1,y1 y el tamaño de este último, hice mucha prueba y error guiandome de que punto comenzaban los cuadrados por ej el cuadrado naranjo tiene justo el mismo punto así que lo unico que tuve que hacer es que al *codigo square(102, 150, 50)*, al 150 ponerle 50 (por el tamaño de los cuadrados), para hacer el otro punto tome en cuenta donde estaba la "y" y le sume 50 a la "x" quedando en (200, 151) y la punta tuve que hacerla más pequeña ya que en la imagen calcule y si lo hacia con altura de 50 iba a chocar con las otras formas cosa que no pasa en la ilustración así que la hice al ojo llegando a un resultado de (173, 105)
+
+
+
+
+
