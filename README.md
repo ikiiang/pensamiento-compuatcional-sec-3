@@ -1,8 +1,10 @@
 # pensamiento-compuatcional-sec-3
 ## sobre este respositorio
--Rogelio polesello (autor)  
--Obra     
--¿Por qué elegi la obra?
+- Rogelio polesello (autor)  
+- Obra     
+- ¿Por qué elegi la obra?   
+- Proceso    
+- Resultado Final :D     
 
 ## Rogelio Polesello ##
   -Rogelio Polesello, nació el 26 de julio de 1939 en Buenos Aires, realizó grandes aportes a la abstracción geométrica en Argentina. Estudió en la Escuela Manuel Belgrano, y se graduó de profesor de dibujo, grabado y escultura en la Prilidiano Pueyrredón.    
