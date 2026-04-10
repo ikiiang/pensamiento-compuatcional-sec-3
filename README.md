@@ -74,7 +74,10 @@ square (52, 200,50)
 
 
 
-Deje lo que para mi es más complicado que fue el triangulo teniendo en cuenta q es un dibujo en el plano cartesiano y no es como el cuadrado q para mi es más fácil poner x1,y1 y el tamaño de este último, hice mucha prueba y error guiandome de que punto comenzaban los cuadrados por ej el cuadrado naranjo tiene justo el mismo punto así que lo unico que tuve que hacer es que al *codigo square(102, 150, 50)*, al 150 ponerle 50 (por el tamaño de los cuadrados), para hacer el otro punto tome en cuenta donde estaba la "y" y le sume 50 a la "x" quedando en (200, 151) y la punta tuve que hacerla más pequeña ya que en la imagen calcule y si lo hacia con altura de 50 iba a chocar con las otras formas cosa que no pasa en la ilustración así que la hice al ojo llegando a un resultado de (173, 105) y el código quedó así:
+Deje lo que para mi es más complicado que fue el triangulo teniendo en cuenta q es un dibujo en el plano cartesiano y no es como el cuadrado q para mi es más fácil poner x1,y1 y el tamaño de este último, hice mucha prueba y error guiandome de que punto comenzaban los cuadrados por ej el cuadrado naranjo tiene justo el mismo punto:   
+![imagen](imgpcompu/triangulo.jpeg) 
+
+así que lo unico que tuve que hacer es que al *codigo square(102, 150, 50)*, al 150 ponerle 50 (por el tamaño de los cuadrados), para hacer el otro punto tome en cuenta donde estaba la "y" y le sume 50 a la "x" quedando en (200, 151) y la punta tuve que hacerla más pequeña ya que en la imagen calcule y si lo hacia con altura de 50 iba a chocar con las otras formas cosa que no pasa en la ilustración así que la hice al ojo llegando a un resultado de (173, 105) y el código quedó así:
  let c8=color ('green')
   fill(c8);
 triangle(150, 151, 200, 151, 173, 105);
@@ -83,6 +86,8 @@ triangle(150, 151, 200, 151, 173, 105);
 (esta verde para demostrar con color como quedó) 
 
 ## Resultado final ##
+![imagen](imgpcompu/RESULTADO.jpeg) 
 
+Fue muy entretenido de hacer aunque admito que mi error fue no haberlo hecho con cuadricula ya que se me hubiese facilitado un poco más la prueba de error pero a la vez siento que eso me ayuda a practicar más. 
 
 
