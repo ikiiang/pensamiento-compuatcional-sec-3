@@ -45,25 +45,34 @@ ellipse (141, 100, 45, 45)
 
 
 para hacer los cuadrados fue sencillo dsp de haber sacado el primero ya que a las medidas del primero (no la ultima para q no afectara el tamaño del cuadrado) les iba agregando 50 q como se menciono anteriormente era el tamaño del cuadrado ej: 
-primer cuadrado let c4= color ('#306062')
-  fill(c4);
-square (52,100, 50)
-segundo cuadrado:
-let c5= color ('#cc5a36')
- fill (c5);
-square(102, 150, 50)
-tercer cuadrado  
-let c6= color ('#ecd45a')
-  fill (c6);
-square( 152, 200, 50)
+**primer cuadrado:**   
+let c4= color ('#306062')
+  fill(c4);   
+square (52,100, 50)    
+**segundo cuadrado:**       
+let c5= color ('#cc5a36')    
+ fill (c5);     
+square(102, 150, 50)     
+**tercer cuadrado**        
+let c6= color ('#ecd45a')      
+  fill (c6);      
+square( 152, 200, 50)    
+**El cuarto** que es el azul aislado solo sume 100 a la "y" del cuadrado verde y la "x" la mantuve, quedando en:    
+ let c7= color ('#1b2f78')    
+  fill(c7);    
+square (52, 200,50)    
 
 
 
 
+Deje lo que para mi es más complicado que fue el triangulo teniendo en cuenta q es un dibujo en el plano cartesiano y no es como el cuadrado q para mi es más fácil poner x1,y1 y el tamaño de este último, hice mucha prueba y error guiandome de que punto comenzaban los cuadrados por ej el cuadrado naranjo tiene justo el mismo punto así que lo unico que tuve que hacer es que al *codigo square(102, 150, 50)*, al 150 ponerle 50 (por el tamaño de los cuadrados), para hacer el otro punto tome en cuenta donde estaba la "y" y le sume 50 a la "x" quedando en (200, 151) y la punta tuve que hacerla más pequeña ya que en la imagen calcule y si lo hacia con altura de 50 iba a chocar con las otras formas cosa que no pasa en la ilustración así que la hice al ojo llegando a un resultado de (173, 105) y el código quedó así:
+ let c8=color ('green')
+  fill(c8);
+triangle(150, 151, 200, 151, 173, 105);
 
-Deje lo que para mi es más complicado que fue el triangulo teniendo en cuenta q es un dibujo en el plano cartesiano y no es como el cuadrado q para mi es más fácil poner x1,y1 y el tamaño de este último, hice mucha prueba y error guiandome de que punto comenzaban los cuadrados por ej el cuadrado naranjo tiene justo el mismo punto así que lo unico que tuve que hacer es que al *codigo square(102, 150, 50)*, al 150 ponerle 50 (por el tamaño de los cuadrados), para hacer el otro punto tome en cuenta donde estaba la "y" y le sume 50 a la "x" quedando en (200, 151) y la punta tuve que hacerla más pequeña ya que en la imagen calcule y si lo hacia con altura de 50 iba a chocar con las otras formas cosa que no pasa en la ilustración así que la hice al ojo llegando a un resultado de (173, 105)
+(esta verde para demostrar con color como quedó) 
 
-
+## Resultado final ##
 
 
 
