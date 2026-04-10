@@ -13,5 +13,8 @@
 Es una obra que explora la abstracción geométrica y el arte óptico. Mediante una trama de círculos y figuras de color, genera efectos visuales de movimiento y profundidad, centrados en la percepción más que en la representación.
  ![imagen](https://blog.diderot.art/wp-content/uploads/2018/05/PastedGraphic-20.jpg)  
 
-  ## ¿Por qué fue elegida ##
+  **¿Por qué fue elegida**
 La elegí porque en ella se observa una interacción de formas geométricas y colores llamativos sobre un fondo cuadrado. Me llamaron especialmente la atención los colores de la obra, ya que el único elemento que se repite con mayor frecuencia es el círculo negro. Aun así, los cuadrados de colores y el triángulo del mismo tono que el fondo rompen con la linealidad presente en la composición, Aunque es curioso que no tenga un nombre pero la obra se representa mejor con su geometría que con un título. 
+
+## Proceso ##  
+Al princio hice un fondo de 400x400 pero empece a trabajar y hacer las elipses en una linea para comprobar cuantos circulos me cupirian pero me di cuenta que caian más  de los que necesitaba:  
